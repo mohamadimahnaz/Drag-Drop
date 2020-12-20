@@ -1,0 +1,103 @@
+body {
+    padding: 10px;
+    direction: rtl;
+    font-family: sans-serif;
+    color: white;
+    background-image: url(https://cdn.guidingtech.com/media/assets/2020/04/_1200x630_crop_center-center_82_none/How-to-Set-Virtual-Backgrounds-in-Zoom-and-Cool-Backgrounds.jpg?mtime=1585326760);
+}
+
+h1 {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 100;
+    margin: 0.2em;
+}
+
+.app-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 20px;
+    padding: 2px;
+    border: 4px solid rgb(27, 26, 26);
+    box-shadow: black;
+    border-radius: 5px;
+    background: rgb(250, 234, 209);
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 15px;
+    border: 2px solid rgb(54, 39, 3);
+    border-radius: 7px;
+    background: rgb(250, 234, 209);
+    margin: 10px;
+}
+
+.grid-control {
+    margin: 10px auto;
+}
+
+.grid-control select {
+    margin-left: 10px;
+}
+
+.grid-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.box {
+    padding-left: 10px;
+    width: auto;
+    margin: 10px;
+    border: solid thick black;
+    border-radius: ;
+}
+
+.list-container {
+    padding: 2px;
+    border: 2px solid rgb(54, 39, 3);
+    border-radius: 7px;
+    margin: 10px;
+    background: rgb(250, 234, 209);
+}
+
+.name {
+    cursor: pointer;
+    border: 1px solid black;
+    padding-left: 5px;
+    margin-bottom: 1px;
+    background-color: white;
+}
+
+.inactive {
+    color: grey;
+}
+
+.state-area {
+    padding-right: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    direction: rtl;
+}
+
+select {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+input[type=search] {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    padding-left: 5px;
+}
